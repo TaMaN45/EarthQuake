@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.cardItem,
+.EarthQuakeDetails {
+  border: 1px solid black;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background: #00cc99;
+  padding: 5px 16px;
+  display: inline-block;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #00cc99;
+}
+.EarthQuakeDetails {
+  margin: 5px auto;
+}
+.EarthQuakeDetails p,
+.cardItem p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
